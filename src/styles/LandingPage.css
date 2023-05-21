@@ -1,0 +1,50 @@
+.content {
+  color: white;
+  width: 800px;
+  margin-left: 40px;
+}
+
+.header {
+  font-size: 50px;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+}
+
+.coursePrice {
+  text-decoration: line-through;
+  font-family: "Roboto";
+}
+
+.offrPrice {
+  color: #0048ff;
+  font-family: "Roboto";
+}
+
+.description {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+}
+
+.pointer {
+  font-size: 32px;
+  display: flex;
+  padding: 15px 20px;
+}
+
+.pointer-text {
+  margin-left: 40px;
+  padding-top: 10px;
+  font-weight: 600;
+}
+
+.ptr-icon {
+  height: 68px;
+  width: 68px;
+}
+
+.blueText {
+  color: #0048ff;
+}

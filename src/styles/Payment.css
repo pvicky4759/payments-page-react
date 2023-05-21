@@ -1,0 +1,178 @@
+.form-menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+.form-header {
+  font-family: "Roboto", sans-serif;
+}
+
+.btn-1,
+.btn-2 {
+  color: white;
+  font-family: "Roboto";
+  font-size: 27px;
+  text-align: center;
+  background-color: #0048ff;
+  border-radius: 50%;
+  height: 38px;
+  width: 38px;
+  padding-top: 3px;
+  margin: 0 auto;
+}
+
+.form {
+  background-color: white;
+  width: 549px;
+  text-align: center;
+  padding: 30px;
+  border-radius: 1%;
+}
+
+.input-container {
+  margin-top: 20px;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 0.1;
+  height: 65px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+  border: 2px solid #3c48524c;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.box:hover {
+  border: 2px solid #024c87b3;
+  border-radius: 5px;
+  background-color: #0954e161;
+}
+
+.box-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.box-text {
+  padding-left: 20px;
+}
+
+#box1 {
+  background-color: #676f762b;
+  color: #3c4852ba;
+}
+
+#box2 {
+  background-color: #47ba6844;
+  border: 2px solid #47ba68;
+}
+
+.box-text > p,
+.per-month > p {
+  margin-bottom: 0;
+}
+
+#radio-btn1 {
+  height: 20px;
+  width: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.expired-offer {
+  position: absolute;
+  top: 305px;
+  left: 960px;
+  font-size: 12px;
+  color: white;
+  background-color: #f77171;
+  height: 15px;
+  padding: 7px 12px;
+  border-radius: 5px;
+  margin-bottom: 0;
+}
+
+.recommended {
+  position: absolute;
+  top: 380px;
+  left: 960px;
+  font-size: 12px;
+  color: white;
+  background-color: #47ba68;
+  height: 15px;
+  padding: 7px 12px;
+  border-radius: 5px;
+  margin-bottom: 0;
+}
+
+.rdo-btn {
+  height: 22px;
+  width: 22px;
+}
+
+.total-price {
+  display: flex;
+  justify-content: space-evenly;
+  width: 75px;
+}
+
+.per-month {
+  display: flex;
+  justify-content: space-around;
+}
+
+.fee,
+.top {
+  display: flex;
+  justify-content: space-between;
+  padding: 7px 12px;
+}
+
+.top > p,
+.fee > p,
+.total > p {
+  margin-bottom: 0;
+}
+
+.limited {
+  background-color: #cb502a43;
+  border: 2px solid #de4313;
+  border-radius: 10px;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  font-weight: 600;
+  align-items: center;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 240px;
+  font-weight: 700;
+}
+
+.btn-primary {
+  border: 0px;
+}
+
+.razorpayIcon {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: flex-start;
+}
